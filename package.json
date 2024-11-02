@@ -1,0 +1,37 @@
+{
+  "name": "compcrafter",
+  "version": "1.0.1",
+  "description": "Elevate Your React Skills by Building Components from the Ground Up",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nayandeep",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@types/react": "^18.3.9",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "^3.4.13",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "lucide-react": "^0.446.0",
+    "rollup": "^4.22.4"
+  }
+}
